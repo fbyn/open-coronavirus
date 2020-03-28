@@ -1,8 +1,8 @@
 # coronavirus-server
 
-[![LoopBack](https://github.com/strongloop/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png)](http://loopback.io/)
+[![LoopBack](<https://github.com/strongloop/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png>)](http://loopback.io/)
 
-Example of questionnaire (TestQuestion table):
+Example of questionnaire ( TestQuestion table):
 
 ```
 
@@ -13,23 +13,23 @@ Example of questionnaire (TestQuestion table):
     "title" : "¿Cómo te encuentras?",
     "subtitle" : "<p>Ante cualquier síntoma coronavirus, es habitual que se genere incertidumbre, inquietud e intranquilidad.</p><p><strong>¿Porqué no voy a urgencias y que me vea un médico?</strong> Para <strong>evitar el colapso</strong> de los medios que tenemos para luchar con el virus. <strong>Estás más seguro en casa</strong>, salvo que alguien capacitado te indique ir a ver un médico.</p>",
     "multicheck" : false,
-    "children" : [ 
+    "children" : [
         {
             "option" : "Tengo síntomas y me preocupa que pueda ser coronavirus",
             "target" : "question1_1"
-        }, 
+        },
         {
             "option" : "Estoy aislado y confinado en casa",
             "target" : "question2_1"
-        }, 
+        },
         {
             "option" : "He dado positivo por coronavirus",
             "target" : "question3_1"
-        }, 
+        },
         {
             "option" : "Me dijeron los médicos que mis síntomas no eran graves pero que requieren seguimiento",
             "target" : "question1_3"
-        }, 
+        },
         {
             "option" : "Tengo dudas sobre temas relacionados con el coronavirus",
             "target" : "https://coronavirus.epidemixs.org/#/opening"
@@ -46,11 +46,11 @@ Example of questionnaire (TestQuestion table):
     "subtitle" : "<p><ul><li><strong>España</strong>: Madrid, Rioja, País Vasco, Cataluña o Valencia. Municipios de la Bastida, Vitoria-Gasteiz (País Vasco), Igualada (Cataluña) o Miranda de Ebro (Castilla y León)</li><li><strong>Italia</strong></li><li><strong>Francia</strong>: departamentos de Haut-Rhin (Grabd Est) y L'Oise (Hauts-de-France)</li><li><strong>Alemania</strong>: departamento de Heinsberg (Renania del Norte-Westfalia)</li><li><strong>China</strong> incluyendo Hong Kong y Macao</li><li><strong>Corea del Sur</strong></li><li><strong>Japón</strong></li><li><strong>Singapur</strong></li><li><strong>Irán</strong></li></ul></p>",
     "multicheck" : false,
     "target" : "question1_2",
-    "children" : [ 
+    "children" : [
         {
             "option" : "Sí",
             "value" : 100
-        }, 
+        },
         {
             "option" : "No",
             "value" : 0
@@ -67,15 +67,15 @@ Example of questionnaire (TestQuestion table):
     "subtitle" : "<p>Estar en contacto estrecho con una persona que haya sido caso de estudio o cofirmado de coronavirus SARS-CoV-2 significa:<ul><li>Vivir en el mismo hogar</li><li>Tener contacto cara a cara, como por ejemplo una conversación de más de un minuto</li><li>Si ha tosido cerca tuyo</li><li>Estar a menos de 2 metros de la persona durante más de 15 minutos</li><li>Estar en contacto con sus secreciones: mucosidad, saliva, excrementos, orina, sangre, vómitos, etc...</li></ul>",
     "multicheck" : false,
     "target" : "question1_3",
-    "children" : [ 
+    "children" : [
         {
             "option" : "Sí",
             "value" : 100
-        }, 
+        },
         {
             "option" : "No lo sé",
             "value" : 0
-        }, 
+        },
         {
             "option" : "No",
             "value" : 0
@@ -91,51 +91,51 @@ Example of questionnaire (TestQuestion table):
     "question" : "¿Qué síntomas tienes? Marca el mas pronunciado",
     "multicheck" : true,
     "target" : "question1_4",
-    "children" : [ 
+    "children" : [
         {
             "option" : "Fiebre más 37º",
             "value" : 3
-        }, 
+        },
         {
             "option" : "Fiebre menos de 37º",
             "value" : 0
-        }, 
+        },
         {
             "option" : "Tos seca",
             "value" : 2
-        }, 
+        },
         {
             "option" : "Tos expulsiva",
             "value" : 1
-        }, 
+        },
         {
             "option" : "Dificultad para respirar",
             "value" : 3
-        }, 
+        },
         {
             "option" : "Dolor de pecho",
             "value" : 1
-        }, 
+        },
         {
             "option" : "Dolor de garganta",
             "value" : 1
-        }, 
+        },
         {
             "option" : "Dolor muscular",
             "value" : 1
-        }, 
+        },
         {
             "option" : "Congestión y secreción nasal",
             "value" : 1
-        }, 
+        },
         {
             "option" : "Cansancio",
             "value" : 1
-        }, 
+        },
         {
             "option" : "Malestar general",
             "value" : 1
-        }, 
+        },
         {
             "option" : "Ninguno de los anteriores",
             "value" : -30
@@ -151,19 +151,19 @@ Example of questionnaire (TestQuestion table):
     "question" : "¿Hace cuánto tienes los síntomas?",
     "multicheck" : false,
     "target" : "question1_5",
-    "children" : [ 
+    "children" : [
         {
             "option" : "Hoy",
             "value" : 0
-        }, 
+        },
         {
             "option" : "1 día",
             "value" : 1
-        }, 
+        },
         {
             "option" : "2 días",
             "value" : 2
-        }, 
+        },
         {
             "option" : "3 días o más",
             "value" : 3
@@ -179,15 +179,15 @@ Example of questionnaire (TestQuestion table):
     "question" : "¿Qué intensidad de dolor tienes?",
     "multicheck" : false,
     "target" : "testresult",
-    "children" : [ 
+    "children" : [
         {
             "option" : "Bajo - medio",
             "value" : 0
-        }, 
+        },
         {
             "option" : "Alto y además fiebre de menos de 37 grados",
             "value" : 0
-        }, 
+        },
         {
             "option" : "Alto y además fiebre de más de 37 grados",
             "value" : 10
@@ -202,19 +202,19 @@ Example of questionnaire (TestQuestion table):
     "title" : "Estoy aislado",
     "question" : "Estoy aislado/confinado en casa y:",
     "multicheck" : false,
-    "children" : [ 
+    "children" : [
         {
             "option" : "¿Qué tengo que hacer durante el aislamiento?",
             "target" : "isolation_place_recommendations"
-        }, 
+        },
         {
             "option" : "Aún no se han puesto en contacto conmigo",
             "target" : "wait_to_be_contacted_and_contact_phones"
-        }, 
+        },
         {
             "option" : "Me tomaron las muestras y aún no me han dado los resultados",
             "target" : "wait_to_results_and_contact_phones"
-        }, 
+        },
         {
             "option" : "Ha empeorado mi clínica desde que estoy en casa confinado",
             "target" : "recommendations_and_contact_phones"
@@ -230,11 +230,11 @@ Example of questionnaire (TestQuestion table):
     "question" : "He dado positivo por coronavirus y:",
     "subtitle" : "",
     "multicheck" : false,
-    "children" : [ 
+    "children" : [
         {
             "option" : "¿Qué tengo que hacer durante el aislamiento?",
             "target" : "isolation_place_recommendations"
-        }, 
+        },
         {
             "option" : "Ha empeorado mi clínica desde que estoy en casa confinado",
             "target" : "recommendations_and_contact_phones"
